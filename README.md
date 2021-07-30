@@ -3,7 +3,7 @@
 
 ## Your Task
 
-This week’s homework required us to build a timed coding quiz with multiple-choice questions. This quiz would run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean, polished, and responsive user interface.
+This week's homework required us to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. We also were required to used the Moment.js library to work with date and time.
 
 
 Link to deployed application: https://egraham96.github.io/homework-assignment-05/                                                                                              
