@@ -8,9 +8,7 @@ input = "";
 var todayDate = moment().format('LLLL');
 $("#currentDay").html(todayDate);
 
-
 colorcode();
-
 
 //Function that color codes each hour block depending on whether hour is in past, present or future
 function colorcode() {
@@ -37,14 +35,19 @@ $(":button").click(submit);
 
 function submit(event) {
     event.preventDefault()
-    buttonid = event.currentTarget.parentNode.id;
-    parent = event.currentTarget.parentNode;
-    textareaid = $(this).siblings("textarea");
-    hour = buttonid;
-    console.log(hour);
-    input = textareaid.val();
-    localStorage.setItem(hour, input);
-    console.log(localStorage.getItem(hour));
-    textareaid.textContent = localStorage.getItem(hour);
-    textareaid.prop('readonly', true);
+    var hour = $(this).siblings(".hour").text();
+    var plan = $(this).siblings("textarea").val();
+    localStorage.setItem(hour, plan);
 }
+
+function refresh() {
+    $(".hour").each(function() {
+        var currenthour = $(this).text();
+        var currentplan = localStorage.getItem(currenthour);
+        if (currentplan !== null) {
+            $(this).siblings("textarea").val(currentplan);
+        }
+    })
+}
+
+refresh();
