@@ -40,6 +40,8 @@ function submit(event) {
     localStorage.setItem(hour, plan);
 }
 
+// WHEN I refresh the page
+// THEN the saved events persist
 function refresh() {
     $(".hour").each(function() {
         var currenthour = $(this).text();
@@ -49,5 +51,4 @@ function refresh() {
         }
     })
 }
-
 refresh();
