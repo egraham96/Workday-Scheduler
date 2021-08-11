@@ -17,6 +17,10 @@ This week's homework required us to create a simple calendar application that al
 * [See Live Site](https://egraham96.github.io/homework-assignment-05/)
 * [Link to GitHub Repo](https://github.com/egraham96/homework-assignment-05)
 
+## Preview of Working Site:
+![Screenshot of Deployed Application](Assets/ScreenshotofDeployedApplication.PNG)
+![Screenshot of Deployed Application](Assets/AnotherScreenshotofDeployedApplication.PNG)
+
 ## Contact the Creator:
 * Emma Graham: https://github.com/egraham96
 
