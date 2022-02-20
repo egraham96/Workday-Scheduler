@@ -14,7 +14,7 @@ This week's homework required us to create a simple calendar application that al
 * [Google Fonts](https://developers.google.com/fonts/)
 
 ## Deployed Links:
-* [See Live Site](https://egraham96.github.io/homework-assignment-05/)
+* [See Live Site](https://egraham96.github.io/Workday-Scheduler/)
 * [Link to GitHub Repo](https://github.com/egraham96/Workday-Scheduler)
 
 ## Preview of Working Site:
